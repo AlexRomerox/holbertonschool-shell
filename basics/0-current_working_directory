@@ -1,2 +1,2 @@
 #!/bin/bash
-path=$(which ls)  echo 'la ruta es:' $path
+echo 'la ruta es:' $(which ls)
